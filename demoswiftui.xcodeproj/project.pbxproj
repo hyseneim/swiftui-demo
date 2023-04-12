@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		9D60F51829E6CD970055DA6B /* demoswiftuiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D60F51729E6CD970055DA6B /* demoswiftuiApp.swift */; };
-		9D60F51A29E6CD970055DA6B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D60F51929E6CD970055DA6B /* ContentView.swift */; };
+		9D60F51A29E6CD970055DA6B /* InstagramClone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D60F51929E6CD970055DA6B /* InstagramClone.swift */; };
 		9D60F51C29E6CD980055DA6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D60F51B29E6CD980055DA6B /* Assets.xcassets */; };
 		9D60F52029E6CD980055DA6B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D60F51F29E6CD980055DA6B /* Preview Assets.xcassets */; };
 		9D60F52A29E6CD980055DA6B /* demoswiftuiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D60F52929E6CD980055DA6B /* demoswiftuiTests.swift */; };
 		9D60F53429E6CD980055DA6B /* demoswiftuiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D60F53329E6CD980055DA6B /* demoswiftuiUITests.swift */; };
 		9D60F53629E6CD980055DA6B /* demoswiftuiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D60F53529E6CD980055DA6B /* demoswiftuiUITestsLaunchTests.swift */; };
 		9D60F54329E6CE3B0055DA6B /* Demo1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D60F54229E6CE3B0055DA6B /* Demo1.swift */; };
+		9D60F54529E6D77C0055DA6B /* Demo2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D60F54429E6D77C0055DA6B /* Demo2.swift */; };
+		9D60F54729E6DF220055DA6B /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D60F54629E6DF220055DA6B /* Restaurant.swift */; };
+		9DD038C929E6E87200261973 /* Whatsapp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD038C829E6E87200261973 /* Whatsapp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +40,7 @@
 /* Begin PBXFileReference section */
 		9D60F51429E6CD970055DA6B /* demoswiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demoswiftui.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D60F51729E6CD970055DA6B /* demoswiftuiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demoswiftuiApp.swift; sourceTree = "<group>"; };
-		9D60F51929E6CD970055DA6B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9D60F51929E6CD970055DA6B /* InstagramClone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramClone.swift; sourceTree = "<group>"; };
 		9D60F51B29E6CD980055DA6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D60F51D29E6CD980055DA6B /* demoswiftui.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = demoswiftui.entitlements; sourceTree = "<group>"; };
 		9D60F51F29E6CD980055DA6B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -47,6 +50,9 @@
 		9D60F53329E6CD980055DA6B /* demoswiftuiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demoswiftuiUITests.swift; sourceTree = "<group>"; };
 		9D60F53529E6CD980055DA6B /* demoswiftuiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demoswiftuiUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		9D60F54229E6CE3B0055DA6B /* Demo1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo1.swift; sourceTree = "<group>"; };
+		9D60F54429E6D77C0055DA6B /* Demo2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Demo2.swift; sourceTree = "<group>"; };
+		9D60F54629E6DF220055DA6B /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		9DD038C829E6E87200261973 /* Whatsapp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Whatsapp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +104,14 @@
 			isa = PBXGroup;
 			children = (
 				9D60F51729E6CD970055DA6B /* demoswiftuiApp.swift */,
-				9D60F51929E6CD970055DA6B /* ContentView.swift */,
+				9D60F51929E6CD970055DA6B /* InstagramClone.swift */,
 				9D60F51B29E6CD980055DA6B /* Assets.xcassets */,
 				9D60F51D29E6CD980055DA6B /* demoswiftui.entitlements */,
 				9D60F51E29E6CD980055DA6B /* Preview Content */,
 				9D60F54229E6CE3B0055DA6B /* Demo1.swift */,
+				9D60F54429E6D77C0055DA6B /* Demo2.swift */,
+				9D60F54629E6DF220055DA6B /* Restaurant.swift */,
+				9DD038C829E6E87200261973 /* Whatsapp.swift */,
 			);
 			path = demoswiftui;
 			sourceTree = "<group>";
@@ -262,7 +271,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D60F51A29E6CD970055DA6B /* ContentView.swift in Sources */,
+				9D60F54729E6DF220055DA6B /* Restaurant.swift in Sources */,
+				9DD038C929E6E87200261973 /* Whatsapp.swift in Sources */,
+				9D60F51A29E6CD970055DA6B /* InstagramClone.swift in Sources */,
+				9D60F54529E6D77C0055DA6B /* Demo2.swift in Sources */,
 				9D60F54329E6CE3B0055DA6B /* Demo1.swift in Sources */,
 				9D60F51829E6CD970055DA6B /* demoswiftuiApp.swift in Sources */,
 			);

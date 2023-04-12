@@ -8,7 +8,7 @@
 import SwiftUI
 import UIKit
 
-struct ContentView : View {
+struct InstagramClone : View {
     
     init(feed: [Post], stories: [Story]) {
         self.feed = feed
@@ -141,9 +141,9 @@ extension Story {
 }
 
 #if DEBUG
-struct ContentViewPreview : PreviewProvider {
+struct InstagramClonePreview : PreviewProvider {
     static var previews: some View {
-        ContentView(feed: Post.mocks(), stories: Story.mocks())
+        InstagramClone(feed: Post.mocks(), stories: Story.mocks())
     }
 }
 #endif

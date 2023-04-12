@@ -11,8 +11,11 @@ import SwiftUI
 struct demoswiftuiApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView(feed: Post.mocks(), stories: Story.mocks())
+            //InstagramClone(feed: Post.mocks(), stories: Story.mocks())
             //Demo1()
+            //Demo2(books: Book2.mocks())
+            //Restaurant()
+            Whatsapp()
         }
     }
 }
